@@ -57,7 +57,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StringExtensions\StringExtensions.Truncate.csproj">
+    <ProjectReference Include="..\StringExtensions.Truncate\StringExtensions.Truncate.csproj">
       <Project>{60aaea00-988c-4c17-b642-d6560961c940}</Project>
       <Name>StringExtensions.Truncate</Name>
     </ProjectReference>

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExtensions.Truncate", "StringExtensions\StringExtensions.Truncate.csproj", "{60AAEA00-988C-4C17-B642-D6560961C940}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExtensions.Truncate", "StringExtensions.Truncate\StringExtensions.Truncate.csproj", "{60AAEA00-988C-4C17-B642-D6560961C940}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExtensions.Truncate.Tests", "StringExtensions.Tests\StringExtensions.Truncate.Tests.csproj", "{BD3003EE-399D-40B7-832D-1193607E5F47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExtensions.Truncate.Tests", "StringExtensions.Truncate.Tests\StringExtensions.Truncate.Tests.csproj", "{BD3003EE-399D-40B7-832D-1193607E5F47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
