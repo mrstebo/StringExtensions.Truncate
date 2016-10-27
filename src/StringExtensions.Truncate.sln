@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExtensions.Truncate", "StringExtensions\StringExtensions.Truncate.csproj", "{60AAEA00-988C-4C17-B642-D6560961C940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExtensions.Truncate.Tests", "StringExtensions.Tests\StringExtensions.Truncate.Tests.csproj", "{BD3003EE-399D-40B7-832D-1193607E5F47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60AAEA00-988C-4C17-B642-D6560961C940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AAEA00-988C-4C17-B642-D6560961C940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AAEA00-988C-4C17-B642-D6560961C940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AAEA00-988C-4C17-B642-D6560961C940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3003EE-399D-40B7-832D-1193607E5F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3003EE-399D-40B7-832D-1193607E5F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3003EE-399D-40B7-832D-1193607E5F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3003EE-399D-40B7-832D-1193607E5F47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
