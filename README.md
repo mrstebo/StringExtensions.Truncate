@@ -4,3 +4,13 @@
 
 # StringExtensions.Truncate
 Simple library for adding the Truncate method to string.
+
+## How to use it
+
+This library adds a simple extension to the `string` class. Here are some examples:
+
+```cs
+"Hello".Truncate(10);       // Prints "Hello"
+"Hello".Truncate(2);        // Prints "He"
+"Hello".Truncate(2, "..."); // Prints "He..."
+```
