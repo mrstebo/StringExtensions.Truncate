@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{60AAEA00-988C-4C17-B642-D6560961C940}</ProjectGuid>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyTitle>StringExtensions.Truncate</AssemblyTitle>
+    <Company>mrstebo</Company>
+    <Product>StringExtensions.Truncate</Product>
+    <Description>Simple library for adding the Truncate method to string.</Description>
+    <Copyright>Copyright ©  2016</Copyright>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+</Project>

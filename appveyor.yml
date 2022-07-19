@@ -1,23 +1,20 @@
 version: '{build}'
-image: Visual Studio 2013
+image: Visual Studio 2022
 configuration: Release
 pull_requests:
   do_not_increment_build_number: true
 
 cache:
-  - packages -> **\packages.config
+  - '%USERPROFILE%\.nuget\packages'
 
 install:
   - ps: choco install gitversion.portable -pre -y
-
-assembly_info:
-  patch: true
 
 nuget:
   disable_publish_on_pr: true
 
 before_build:
-  - ps: nuget restore src/StringExtensions.Truncate.sln
+  - ps: dotnet restore src/StringExtensions.Truncate.sln
   - ps: gitversion /l console /output buildserver /updateAssemblyInfo /b (get-item env:APPVEYOR_REPO_BRANCH).Value
 
 build:
@@ -25,7 +22,7 @@ build:
   verbosity: minimal
 
 after_build:
-  - cmd: nuget pack -Version "%GitVersion_NuGetVersion%" -Prop "target=%CONFIGURATION%"
+  - cmd: dotnet pack -c %CONFIGURATION% /p:Version="%GitVersion_NuGetVersion%"
 
 artifacts:
   - path: '*.nupkg'
